@@ -65,30 +65,33 @@ https://invoice-to-sheet.vercel.app
 npm install
 npm run dev
 
-- Automatic sync with v0.app deployments
+## Run with Docker
+```bash
+docker build -t invoice-ocr .
+docker run -p 3000:3000 invoice-ocr
 
-## Live Demo
-https://v0-invoice-to-excel.vercel.app/
+##Project Structure
+app/
+ ├── api/extract/route.ts   # OCR + parsing + export logic
+ ├── layout.tsx             # Metadata
+ ├── page.tsx               # UI
 
-## Deployment Dashboard
-https://vercel.com/vikumar162006-gmailcoms-projects/v0-invoice-to-excel
+## Limitations
 
-## Tech Stack
-- v0.app
-- Vercel
-- Web-based interface
+- OCR accuracy depends on image quality
+- Highly complex invoice layouts may reduce accuracy
 
-## Build & Development
-This project is created and maintained using v0.app.
+## Future Improvements
 
-To continue building or modifying the application, visit:
-https://v0.app/chat/k1Om5dPPBre
-
-## How It Works
-1. Build and update the application using v0.app
-2. Deploy directly from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version to production
+- ML-based invoice layout detection
+- Confidence scoring
+- Manual correction UI
+- Multi-language OCR
 
 ## License
-Specify your license here
+
+MIT
+
+## Author
+
+Built by \Vikas Kumar
