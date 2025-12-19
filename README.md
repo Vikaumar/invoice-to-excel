@@ -61,12 +61,10 @@ https://invoice-to-sheet.vercel.app
 ---
 
 ## Run Locally
-```bash
 npm install
 npm run dev
 
 ## Run with Docker
-```bash
 docker build -t invoice-ocr .
 docker run -p 3000:3000 invoice-ocr
 
