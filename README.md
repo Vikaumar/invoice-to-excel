@@ -52,13 +52,13 @@ https://invoice-to-sheet.vercel.app
 
 ---
 
-```md
 ## Run Locally
 
 ```bash
 npm install
 npm run dev
 ## Run Locally
+```
 
 ```bash
 npm install
