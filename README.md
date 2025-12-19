@@ -73,10 +73,12 @@ docker run -p 3000:3000 invoice-ocr
 ```
 
 ##Project Structure
+```bash
 app/
  ├── api/extract/route.ts   # OCR + parsing + export logic
  ├── layout.tsx             # Metadata
  ├── page.tsx               # UI
+```
 
 ## Limitations
 
