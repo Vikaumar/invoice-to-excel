@@ -72,7 +72,7 @@ docker build -t invoice-ocr .
 docker run -p 3000:3000 invoice-ocr
 ```
 
-##Project Structure
+## Project Structure
 ```bash
 app/
  ├── api/extract/route.ts   # OCR + parsing + export logic
