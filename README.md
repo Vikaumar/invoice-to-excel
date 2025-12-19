@@ -92,10 +92,7 @@ app/
 - Manual correction UI
 - Multi-language OCR
 
-## License
-
-MIT
 
 ## Author
 
-Built by \Vikas Kumar
+Built by Vikas Kumar
